@@ -5,15 +5,8 @@
   padding-top: 30px;
 }
 
-.navbar-header {
-
-  vertical-align: bottom;
-}
 
 
-/* a.navbar-brand span {
-  vertical-align: bottom;
-} */
  /* #header-nav .navbar-header*/
  #header-nav button.navbar-toggle, #header-nav button.navbar-toggle .icon-bar {
    border: 1px solid  #003566;
@@ -30,16 +23,11 @@
  }
 
 
-
-
-
 h1 {
   margin-bottom: 50px;
   margin-top: 0;
   font-weight: bold;
 }
-
-
 
 
 #content{
@@ -49,6 +37,9 @@ h1 {
   font-size: 1.2em;
 }
 
+#content h2 {
+  font-weight: bold;
+}
 #content p {
   padding:0;
   margin: 0;
@@ -77,8 +68,12 @@ h1 {
   padding-bottom: 5px;
 }
 
+#header-nav a.navbar-brand{
+line-height: 0.5em;
+
+}
+
+
+}
 /* #nav-list li:nth-child(3){
   padding-bottom: 15px;
-
-
-} */
